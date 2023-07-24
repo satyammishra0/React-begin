@@ -9,10 +9,6 @@ const Appi = () => {
       <Button title="AppStore" />
       <Button title="PlayStore" />
       <Button title="GoogleStore" />
-      <Button />
-
-      {/* <button className="button">PlayStore</button>
-      <button className="button">AppStore</button> */}
     </div>
   );
 };

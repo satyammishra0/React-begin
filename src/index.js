@@ -1,7 +1,5 @@
 import React from "react";
-import { createRoot } from "react-dom/client";
+import ReactDOM from "react-dom";
 import Appi from "./App";
 
-// ReactDOM.render(<Appi />, document.getElementById("root"));
-
-createRoot(document.getElementById("root")).render(<Appi />);
+ReactDOM.render(<Appi />, document.getElementById("root"));
