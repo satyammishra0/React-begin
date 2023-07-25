@@ -1,16 +1,13 @@
 import React from "react";
-import "./style.css";
-import Button from "./Button";
+import NavBar from "./Navbar";
 
-const Appi = () => {
+const App = () => {
   return (
-    <div className="container">
-      <h1>Hello world</h1>
-      <Button title="AppStore" />
-      <Button title="PlayStore" />
-      <Button title="GoogleStore" />
+    <div>
+      <h1>Hello</h1>
+      <NavBar />
     </div>
   );
 };
 
-export default Appi;
+export default App;
