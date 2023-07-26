@@ -7,30 +7,28 @@ const NavBar = () => {
       id="main_website_header"
     >
       <div className="header-logo">
-        <a href="../pages/home.php">
-          <img src="../assets/images/new-logo.png" alt="Header logo" />
-        </a>
+        <h1>Dummy Logo</h1>
       </div>
       <nav>
         <ul className="nav-list utility_flex utility_flex-center-center">
           <li className="nav-links">
-            <a href="../pages/home.php"> HOME</a>
+            <a href="#"> HOME</a>
           </li>
           <li className="nav-links">
-            <a href="../pages/about.php"> ABOUT</a>
+            <a href="#"> ABOUT</a>
           </li>
           <li className="nav-links">
-            <a href="../pages/project-1.php"> PROJECTS</a>
+            <a href="#"> PROJECTS</a>
             <div className="sub-menu sub-menu-car" id="sub_menu">
               <div className="sub-menu-child w-100 ">
                 <ul className="w-100 py-2">
                   <li className="w-100">
-                    <a className="w-100" href="../pages/project-1.php">
+                    <a className="w-100" href="#">
                       Project Aevum
                     </a>
                   </li>
                   <li className="w-100">
-                    <a className="w-100" href="../pages/project-2.php">
+                    <a className="w-100" href="#">
                       Project Aria
                     </a>
                   </li>
@@ -39,13 +37,13 @@ const NavBar = () => {
             </div>
           </li>
           <li className="nav-links">
-            <a href="../pages/amenities.php"> AMENITIES</a>
+            <a href="#"> AMENITIES</a>
           </li>
           <li className="nav-links">
-            <a href="../pages/gallery.php"> GALLERY</a>
+            <a href="#"> GALLERY</a>
           </li>
           <li className="nav-links">
-            <a href="../pages/contact.php"> CONTACT</a>
+            <a href="#"> CONTACT</a>
           </li>
           <li className="nav-links">
             <a href="https://www.instagram.com/futeragroup/">
