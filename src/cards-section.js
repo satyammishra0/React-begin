@@ -11,7 +11,6 @@ const CardsSection = () => (
     <div className="card-parent grid grid-cols-3 gap-10">
       <div className="card1 bg-indigo-700 text-white rounded-t-2xl rounded-b-2xl">
         <div className="card-img">
-          {/* <img src={cardimg1} /> */}
           <img src={cardimg1} className=" h-full w-full rounded-t-2xl" />
         </div>
         <div className="card-content px-5 py-5">
@@ -29,7 +28,6 @@ const CardsSection = () => (
 
       <div className="card1 bg-indigo-700 text-white rounded-t-2xl rounded-b-2xl">
         <div className="card-img">
-          {/* <img src={cardimg1} /> */}
           <img src={cardimg2} className=" h-full w-full rounded-t-2xl" />
         </div>
         <div className="card-content px-5 py-5">
@@ -47,7 +45,6 @@ const CardsSection = () => (
 
       <div className="card1 bg-indigo-700 text-white rounded-t-2xl rounded-b-2xl">
         <div className="card-img">
-          {/* <img src={cardimg1} /> */}
           <img src={cardimg3} className=" h-full w-full rounded-t-2xl" />
         </div>
         <div className="card-content px-5 py-5">
