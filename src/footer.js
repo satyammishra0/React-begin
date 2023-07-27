@@ -3,7 +3,7 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <footer className="bg-indigo-700 text-slate-100 px-16">
+    <footer className="bg-indigo-700 text-slate-100 px-16 py-5">
       <div className="links-parent grid footer-link-grid-parent ">
         <div className="logo-parent">
           <h2 className="text-2xl font-bold mb-4">Dummy Website</h2>
@@ -38,7 +38,7 @@ const Footer = () => {
           </div>
         </div>
         {/* this are the links*/}
-        <div className="links grid place-items-end">
+        <div className="links grid ">
           <ul>
             <li className="mb-2 font-normal">
               <a
@@ -83,7 +83,7 @@ const Footer = () => {
           </ul>
         </div>
         {/* this are the links*/}
-        <div className="links grid place-items-end">
+        <div className="links grid ">
           <ul>
             <li className="mb-2 font-normal">
               <a
