@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.4d5017d3.css","mappings":"AAAA,yBACE,yCACF","sources":["footer.css"],"sourcesContent":[".footer-link-grid-parent {\r\n  grid-template-columns: 52.5% repeat(2, 1fr);\r\n}\r\n"],"names":[],"sourceRoot":""}
